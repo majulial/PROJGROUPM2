@@ -1,0 +1,676 @@
+@media only screen and (max-width: 768px){
+
+    body{
+        background-color:var(--cor2);
+      
+    }
+    main {
+        display: flex;
+       justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    .container{
+        background-color: #fafafa;
+        border-radius: 10px;
+        width: 680px;
+        height: 730px;
+        max-width: 90%;
+        overflow: hidden;
+        position: absolute;
+        border-radius: 35px;
+        margin: auto;
+        border: 15px solid var(--cor1);
+     
+
+    }
+
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin-top: -15px;
+
+    }
+ 
+   
+
+    .form{
+        padding: 35px;
+     
+
+    }
+
+    .form-control{
+    
+        position: relative;
+    
+    }
+
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }    
+
+    .form-control input{
+        border: 2px solid #f0f0f0;
+        display: block;
+        border-radius: 5px;
+        font-size: 13px;
+        width: 96%;
+        padding: 10px;
+    }
+
+    .form-control i{
+        position: absolute;
+        top: 35px;
+        right: 14px;
+        visibility: hidden;
+    }
+
+    .form-control > #cp{
+        top: 35px;
+        right: 48px;
+    
+    } 
+    
+    .form-control  #PP{
+        
+     margin-left: -30px;
+    
+    } 
+
+     .form-control #user{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        visibility: visible;
+    }
+    .form-control #mail{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        visibility: visible;
+    }
+    .form-control #lock{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        visibility: visible;
+    }
+
+
+
+.form-control small{
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button{
+    background-color: var(--cor2);
+    border: 2px solid var(--cor2);
+    font-size: 16px;
+    color:white;
+    width: 97%;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.form button:hover{
+    cursor: pointer;
+}
+    
+
+#regis{
+    border-radius: 30px 0px 0px 30px;
+    padding: 10px;
+    border: 3px solid var(--cor2);
+    background-color: var(--cor2);
+    width: 130px;
+    margin-bottom: -55px;
+    color: #f0f0f0;
+   
+}
+
+#enther{
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px;
+    color: var(--cor2);
+    width: 130px;
+    border: 3px solid var(--cor2);
+    margin-bottom: -55px;
+}
+
+
+/* CEP TABLET   --------------------  */
+
+.form-control #cep{
+    width: 70%;
+}
+
+.form-control #endereco{
+    width: 105%;
+    margin-left: -32px;
+}
+.form-control #numero{
+    width: 70%;
+ 
+}
+.form-control #cidade{
+    width: 105%;
+    margin-left: -32px;
+}
+.form-control #bairro{
+    width: 70%;
+    
+}
+.form-control #estado{
+    width: 105%;
+    margin-left: -32px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+}
+
+
+
+/* USEI A FUNÇÃO JÁ CRIADA DO ERRO NO JS E COPIEI E COLEI A ESTILIZAÇÃO DO ICONE DE ERRO ACIMA E MUDEI O NOME O ICON (i.fa...) PARA O ID (#user) DO ICON (USER) TIRANDO O VISIBILITY QUANDO A FUNÇÃO ERROR FOR ATIVADA */
+ 
+.form-control.error #user {
+    visibility: hidden;
+}
+
+.form-control.error #mail {
+    visibility: hidden;
+}
+.form-control.error #lock {
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+
+.header > button > a{
+    text-decoration: none;
+    color: var(--cor2);
+
+}
+
+
+
+
+
+/* COMECE PEÇA ESTILIZAÇAO MOBILE  */
+
+@media only screen and (max-width: 767px) {
+
+    body{
+        background-color:var(--cor2);
+      
+    }
+    main {
+        display: flex;
+       justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    .container{
+        background-color: #fafafa;
+        border-radius: 10px;
+        width: 680px;
+        height: 730px;
+        max-width: 90%;
+        overflow: hidden;
+        position: absolute;
+        border-radius: 35px;
+        margin: auto;
+        border: 15px solid var(--cor1);
+     
+
+    }
+
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin-top: -15px;
+
+    }
+ 
+   
+
+    .form{
+        padding: 35px;
+     
+
+    }
+
+    .form-control{
+    
+        position: relative;
+    
+    }
+
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }    
+
+    .form-control input{
+        border: 2px solid #f0f0f0;
+        display: block;
+        border-radius: 5px;
+        font-size: 13px;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .form-control i{
+        position: absolute;
+        top: 35px;
+        right: 24px;
+        visibility: hidden;
+    }
+
+    .form-control > #cp{
+        top: 35px;
+        right: 48px;
+    
+    } 
+    
+    .form-control  #PP{
+        
+     margin-left: -30px;
+    
+    } 
+
+     .form-control #user{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        visibility: visible;
+    }
+    .form-control #mail{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        visibility: visible;
+    }
+    .form-control #lock{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        visibility: visible;
+    }
+
+
+
+.form-control small{
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button{
+    background-color: var(--cor2);
+    border: 2px solid var(--cor2);
+    font-size: 16px;
+    color:white;
+    width: 97%;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.form button:hover{
+    cursor: pointer;
+}
+    
+
+#regis{
+    border-radius: 30px 0px 0px 30px;
+    padding: 10px;
+    border: 3px solid var(--cor2);
+    background-color: var(--cor2);
+    width: 130px;
+    margin-bottom: -55px;
+    color: #f0f0f0;
+   
+}
+
+#enther{
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px;
+    color: var(--cor2);
+    width: 130px;
+    border: 3px solid var(--cor2);
+    margin-bottom: -55px;
+}
+
+
+/* CEP MOBILE   --------------------  */
+
+.form-control #cep{
+    width: 60%;
+}
+
+.form-control #endereco{
+    width: 100%;
+    margin-left: -32px;
+}
+.form-control #numero{
+    width: 60%;
+ 
+}
+.form-control #cidade{
+    width: 100%;
+    margin-left: -32px;
+}
+.form-control #bairro{
+    width: 60%;
+    
+}
+.form-control #estado{
+    width: 100%;
+    margin-left: -32px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+}
+
+/*APARTIR DAQUI A ESTILIZAÇÃO É PARA TODOS OS FORMATOS
+
+/* ESTILIZAÇÃO ERROR E SUCCESS */
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.success #user {
+    visibility: hidden;
+}
+
+
+.form-control.success #mail {
+    visibility: hidden;
+}
+
+
+.form-control.success #lock {
+    visibility: hidden;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+
+/* USEI A FUNÇÃO JÁ CRIADA DO ERRO NO JS E COPIEI E COLEI A ESTILIZAÇÃO DO ICONE DE ERRO ACIMA E MUDEI O NOME O ICON (i.fa...) PARA O ID (#user) DO ICON (USER) TIRANDO O VISIBILITY QUANDO A FUNÇÃO ERROR FOR ATIVADA */
+ 
+.form-control.error #user {
+    visibility: hidden;
+}
+
+.form-control.error #mail {
+    visibility: hidden;
+}
+.form-control.error #lock {
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+
+.header > button > a{
+    text-decoration: none;
+    color: var(--cor2);
+
+}
+
+
+/* FAÇA A ESTILIZAÇAO DO DESKTOP */
+
+@media only screen and (min-width: 846px){
+
+
+    main{
+
+    display: flex;
+    background-color: var(--cor2);
+}
+
+img{
+    background-size: cover;
+    width: 756px;
+    
+}
+
+.container{
+    background-color: #fafafa;
+    border-radius: 10px;
+    width: 860px;
+    height: 900px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 35px;
+    margin: auto;
+    border: 15px solid var(--cor1);
+
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        padding: 50px;
+}
+
+
+
+.form{
+    padding: 50px;
+    
+
+}
+
+.form-control{
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.form-control label {
+    display: inline-block;
+}    
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 96%;
+    padding: 15px;
+}
+
+
+/* CSS CEP ---------------------------- */
+.form-control #cep{
+    width: 100%;
+}
+
+.form-control #endereco{
+    width: 100%;
+    margin-left: -32px;
+}
+.form-control #numero{
+    width: 100%;
+ 
+}
+.form-control #cidade{
+    width: 100%;
+    margin-left: -32px;
+}
+.form-control #bairro{
+    width: 100%;
+    
+}
+.form-control #estado{
+    width: 100%;
+    margin-left: -32px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* CSS CEP ---------------------------- */
+
+.form-control i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-control #user{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: visible;
+}
+.form-control #mail{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: visible;
+}
+.form-control #lock{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: visible;
+}
+
+.form-control small{
+bottom: 0;
+left: 0;
+visibility: hidden;
+}
+
+.form button{
+background-color: var(--cor2);
+border: 2px solid var(--cor2);
+font-size: 16px;
+color:white;
+width: 100%;
+padding: 20px;
+border-radius: 5px;
+font-weight: bold;
+
+}
+.form button:hover{
+cursor: pointer;
+}
+
+#regis{
+    border-radius: 30px 0px 0px 30px;
+    padding: 15px;
+    border: 3px solid var(--cor2);
+    background-color: var(--cor2);
+    width: 150px;
+    margin-bottom: -55px;
+    color: #f0f0f0;
+   
+}
+
+#enther{
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px;
+    color: var(--cor2);
+    width: 150px;
+    border: 3px solid var(--cor2);
+    margin-bottom: -55px;
+}
+
+
+
+}
