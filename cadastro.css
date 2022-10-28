@@ -249,12 +249,12 @@
         background-color: #fafafa;
         border-radius: 10px;
         width: 680px;
-        height: 730px;
-        max-width: 90%;
+        height: 720px;
+        max-width: 95%;
         overflow: hidden;
         position: absolute;
         border-radius: 35px;
-        margin: auto;
+        margin-top: 150px;
         border: 15px solid var(--cor1);
      
 
@@ -266,6 +266,7 @@
         align-items: center;
         justify-content: center;
         padding: 30px;
+        margin: 0;
         margin-top: -15px;
 
     }
@@ -274,6 +275,7 @@
 
     .form{
         padding: 35px;
+        
      
 
     }
@@ -349,9 +351,9 @@
     border: 2px solid var(--cor2);
     font-size: 16px;
     color:white;
-    width: 97%;
+    width: 98%;
     font-weight: bold;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
 
 }
@@ -388,7 +390,7 @@
 }
 
 .form-control #endereco{
-    width: 100%;
+    width: 105%;
     margin-left: -32px;
 }
 .form-control #numero{
@@ -396,7 +398,7 @@
  
 }
 .form-control #cidade{
-    width: 100%;
+    width: 105%;
     margin-left: -32px;
 }
 .form-control #bairro{
@@ -404,7 +406,7 @@
     
 }
 .form-control #estado{
-    width: 100%;
+    width: 105%;
     margin-left: -32px;
 }
 
