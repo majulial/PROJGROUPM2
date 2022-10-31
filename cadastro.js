@@ -46,7 +46,7 @@ if (emailValue === "") {
 }
 
 if (cepValue === "") {
-    setErrorFor (cep, "insira um cep.");
+    setErrorFor (cep, "insira um CEP.");
 } else {
     setSuccessFor (cep);
 }
@@ -56,22 +56,22 @@ if (enderecoValue === "") {
     setSuccessFor (endereco);
 }
 if (numeroValue === "") {
-    setErrorFor (numero, "insira um cep.");
+    setErrorFor (numero, "insira um numero.");
 } else {
     setSuccessFor (numero);
 }
 if (estadoValue === "") {
-    setErrorFor (estado, "insira um cep.");
+    setErrorFor (estado, "insira um estado.");
 } else {
     setSuccessFor (estado);
 }
 if (bairroValue === "") {
-    setErrorFor (bairro, "insira um cep.");
+    setErrorFor (bairro, "insira um bairro.");
 } else {
     setSuccessFor (bairro);
 }
 if (cidadeValue === "") {
-    setErrorFor (cidade, "insira um cep.");
+    setErrorFor (cidade, "insira uma cidade.");
 } else {
     setSuccessFor (cidade);
 }
@@ -87,7 +87,7 @@ if (passwordValue === "") {
 
 
 if (passwordConfirmationValue === "") {
-    setErrorFor (passwordConfirmation, "Aconfirmação de senha é obrigatória.")
+    setErrorFor (passwordConfirmation, "A confirmação de senha é obrigatória.")
 } else if (passwordConfirmationValue != passwordValue) {
     setErrorFor (passwordConfirmation, "Senhas não conferem!");
 } else {
@@ -115,7 +115,8 @@ const formIsValid = [...formControls].every((formControl) => {
             icon: "success",
             button: "Ok!",
         });
-    } 
+    }
+
 
 
 
@@ -190,7 +191,7 @@ const formIsValid = [...formControls].every((formControl) => {
                 preencherFormulario(endereco);
             }
         }else{
-            document.getElementById('cep').value = 'CEP incorreto!';
+            document.getElementById('cep').value = 'Insira um CEP válido!';
         }
          
     }

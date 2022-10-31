@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 820px){
 
     body{
         background-color:var(--cor2);
@@ -10,7 +10,7 @@
         align-items: center;
     }
 
-    img{
+    .immg{
         display: none;
     }
 
@@ -56,6 +56,7 @@
     .form-control label {
         display: inline-block;
         margin-bottom: 5px;
+        font-weight: bold;
     }    
 
     .form-control input{
@@ -77,12 +78,14 @@
     .form-control > #cp{
         top: 35px;
         right: 48px;
+        
     
     } 
     
     .form-control  #PP{
         
      margin-left: -30px;
+     font-weight: bold;
     
     } 
 
@@ -91,6 +94,7 @@
         top: 35px;
         right: 20px;
         visibility: visible;
+        
     }
     .form-control #mail{
         position: absolute;
@@ -114,14 +118,15 @@
 }
 
 .form button{
-    background-color: var(--cor2);
-    border: 2px solid var(--cor2);
+    background-color: #5925DC;
+    border: 2px solid #5925DC;
     font-size: 16px;
     color:white;
-    width: 97%;
+    width: 100%;
     font-weight: bold;
     padding: 20px;
     border-radius: 5px;
+    margin-top: 4px;
 
 }
 .form button:hover{
@@ -132,9 +137,9 @@
 #regis{
     border-radius: 30px 0px 0px 30px;
     padding: 10px;
-    border: 3px solid var(--cor2);
-    background-color: var(--cor2);
-    width: 130px;
+    border: 3px solid #5925DC;
+    background-color: #5925DC;
+    width: 580px;
     margin-bottom: -55px;
     color: #f0f0f0;
    
@@ -144,8 +149,8 @@
     border-radius: 0px 30px 30px 0px;
     padding: 10px;
     color: var(--cor2);
-    width: 130px;
-    border: 3px solid var(--cor2);
+    width: 580px;
+    border: 3px solid #5925DC;
     margin-bottom: -55px;
 }
 
@@ -154,6 +159,7 @@
 
 .form-control #cep{
     width: 70%;
+
 }
 
 .form-control #endereco{
@@ -241,7 +247,7 @@
         align-items: center;
     }
 
-    img{
+    .immg{
         display: none;
     }
 
@@ -303,13 +309,13 @@
     .form-control i{
         position: absolute;
         top: 35px;
-        right: 24px;
+        right: 15px;
         visibility: hidden;
     }
 
     .form-control > #cp{
         top: 35px;
-        right: 48px;
+        right: 54px;
     
     } 
     
@@ -347,14 +353,15 @@
 }
 
 .form button{
-    background-color: var(--cor2);
-    border: 2px solid var(--cor2);
+    background-color: #5925DC;
+    border: 2px solid #5925DC;
     font-size: 16px;
     color:white;
     width: 98%;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 4px;
 
 }
 .form button:hover{
@@ -365,9 +372,9 @@
 #regis{
     border-radius: 30px 0px 0px 30px;
     padding: 10px;
-    border: 3px solid var(--cor2);
-    background-color: var(--cor2);
-    width: 130px;
+    border: 3px solid #5925DC;
+    background-color: #5925DC;
+    width: 185px;
     margin-bottom: -55px;
     color: #f0f0f0;
    
@@ -377,8 +384,8 @@
     border-radius: 0px 30px 30px 0px;
     padding: 10px;
     color: var(--cor2);
-    width: 130px;
-    border: 3px solid var(--cor2);
+    width: 185px;
+    border: 3px solid #5925DC;
     margin-bottom: -55px;
 }
 
@@ -390,7 +397,7 @@
 }
 
 .form-control #endereco{
-    width: 105%;
+    width: 100%;
     margin-left: -32px;
 }
 .form-control #numero{
@@ -398,7 +405,7 @@
  
 }
 .form-control #cidade{
-    width: 105%;
+    width: 100%;
     margin-left: -32px;
 }
 .form-control #bairro{
@@ -406,7 +413,7 @@
     
 }
 .form-control #estado{
-    width: 105%;
+    width: 100%;
     margin-left: -32px;
 }
 
@@ -565,24 +572,22 @@ img{
 }
 
 .form-control #endereco{
-    width: 100%;
-    margin-left: -32px;
+    width: 85%;
 }
 .form-control #numero{
     width: 100%;
  
 }
 .form-control #cidade{
-    width: 100%;
-    margin-left: -32px;
+    width: 85%;
+
 }
 .form-control #bairro{
     width: 100%;
     
 }
 .form-control #estado{
-    width: 100%;
-    margin-left: -32px;
+    width: 85%;
 }
 
 .box1{
@@ -632,6 +637,14 @@ img{
     visibility: visible;
 }
 
+.form-control > #cp{
+    top: 36px;
+    right: -20px;
+
+} 
+
+
+
 .form-control small{
 bottom: 0;
 left: 0;
@@ -639,8 +652,8 @@ visibility: hidden;
 }
 
 .form button{
-background-color: var(--cor2);
-border: 2px solid var(--cor2);
+background-color: #5925DC;
+border: 2px solid #5925DC;
 font-size: 16px;
 color:white;
 width: 100%;
@@ -656,9 +669,9 @@ cursor: pointer;
 #regis{
     border-radius: 30px 0px 0px 30px;
     padding: 15px;
-    border: 3px solid var(--cor2);
-    background-color: var(--cor2);
-    width: 150px;
+    border: 3px solid #5925DC;
+    background-color: #5925DC;
+    width: 850px;
     margin-bottom: -55px;
     color: #f0f0f0;
    
@@ -668,8 +681,8 @@ cursor: pointer;
     border-radius: 0px 30px 30px 0px;
     padding: 15px;
     color: var(--cor2);
-    width: 150px;
-    border: 3px solid var(--cor2);
+    width: 850px;
+    border: 3px solid #5925DC;
     margin-bottom: -55px;
 }
 
